@@ -1,10 +1,10 @@
 // Only change code below this line
 function myDoWhile() {
-var myNumber = 0;
-do {console.log(myNumber);
+var myNumbers = 0;
+do {console.log(myNumbers);
     myNumber++;
 }
-while(myNumber <= 9);
+while(myNumbers <= 9);
 }
 console.log(myDoWhile());
 // Only change code above this line
