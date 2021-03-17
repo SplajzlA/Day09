@@ -1,9 +1,9 @@
 // Only change the code below this line
-var fiveNumber = 5;
+var fiveNumbers = 5;
 function inverseWhile(){
-while (fiveNumber > -1){
-console.log(fiveNumber);
-fiveNumber--;
+while (fiveNumbers > -1){
+console.log(fiveNumbers);
+fiveNumbers--;
 }
 }
 // Only change the code above this line
