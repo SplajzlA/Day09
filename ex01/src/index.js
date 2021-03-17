@@ -4,6 +4,6 @@ function myTrueBoolean(){
     }
 
 myTrueBoolean();
-// Only change code above this line
 console.log(myTrueBoolean());
+// Only change code above this line
 module.exports = myTrueBoolean;
