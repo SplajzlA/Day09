@@ -2,7 +2,7 @@
 function myDoWhile() {
 var myNumbers = 0;
 do {console.log(myNumbers);
-    myNumber++;
+    myNumbers++;
 }
 while(myNumbers <= 9);
 }
