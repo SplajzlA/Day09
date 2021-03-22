@@ -1,6 +1,6 @@
 // Only change code below this line
 function checkSign(num){
-    return (num < 0) ? "negative": (num === 0) ? "zero": "possitive";
+    return (num < 0) ? "negative": (num === 0) ? "zero": "positive";
 }
 console.log(checkSign(10));
 console.log(checkSign(-12));

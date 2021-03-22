@@ -1,11 +1,15 @@
 // Only change the code below this line
-var fiveNumbers = 5;
+var i = 5;
+var fiveNumbers = "";
 function inverseWhile(){
-while (fiveNumbers > -1){
-console.log(fiveNumbers);
-fiveNumbers--;
+while (i > 0){
+//console.log(fiveNumbers);
+fiveNumbers += i ;
+i--;
 }
+return fiveNumbers;
 }
+inverseWhile();
 // Only change the code above this line
 console.log(inverseWhile());
 module.exports =inverseWhile;

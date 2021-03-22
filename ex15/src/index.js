@@ -1,11 +1,15 @@
 // Only change code below this line
 function myDoWhile() {
-var myNumbers = 0;
-do {console.log(myNumbers);
-    myNumbers++;
+var myNumbers = "";
+i = 0;
+do {
+    myNumbers +=i;
+    i++;
 }
-while(myNumbers <= 9);
+while(i<= 9);
+return myNumbers;
 }
+
 console.log(myDoWhile());
 // Only change code above this line
 module.exports = myDoWhile;

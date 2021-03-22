@@ -7,7 +7,7 @@ function logicOrder(num){
     return "Less than 100";
     }
     else{
-    return "Greater than or equal 100"
+    return "Greater than or equal to 100"
     }
 }
 logicOrder();

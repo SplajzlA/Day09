@@ -1,10 +1,12 @@
 // Only change code below this line
 function functionElse(num){
     if(num <= 5){
-    return "5 or smaller";
+    var result = "5 or smaller";
+    return result;
     }
     else{
-    return "Bigger than 5";
+    var result = "Bigger than 5";
+    return result;
     }
 }
 functionElse();
